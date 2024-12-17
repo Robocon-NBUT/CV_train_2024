@@ -51,3 +51,10 @@ OpenCV 支持多种色彩空间变换，如`cv2.cvtColor()`函数可实现 BGR �
 ### 轮廓识别
 `cv2.findContours()`函数用于查找图像中的轮廓，`cv2.drawContours()`函数则将找到的轮廓绘制出来。轮廓识别在目标检测、形状分析等领域具有重要意义。通过对轮廓的特征分析，如面积、周长、形状复杂度等，可以对图像中的物体进行分类和识别。但在处理复杂图像时，轮廓的层次结构和嵌套关系可能会使处理变得复杂。例如，在一些包含多个物体或物体内部有孔洞的图像中，需要深入理解`cv2.findContours()`函数的`hierarchy`参数以及轮廓的父子关系等概念，才能正确提取和处理所需的轮廓信息，避免误判或遗漏重要轮廓。
 
+![all](https://github.com/user-attachments/assets/beea8824-0b0a-466a-9a2a-0994fd8e757a)
+![all_gray](https://github.com/user-attachments/assets/40f9dbf9-0510-47d3-af12-511376771e04)
+![all_hsv](https://github.com/user-attachments/assets/f67b6b89-032b-4149-bb27-f5657f482617)
+![all_lab](https://github.com/user-attachments/assets/7022de59-d951-464b-861d-54dfe0d0fd21)
+![phone](https://github.com/user-attachments/assets/529f4dda-4df8-4c5c-852b-b80a0c2d9232)
+![phone_resized](https://github.com/user-attachments/assets/3b0c905e-eec1-4eff-8144-a85cc9be296a)
+
