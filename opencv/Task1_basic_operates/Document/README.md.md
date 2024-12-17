@@ -32,3 +32,9 @@ OpenCV 函数众多且参数复杂，往往一个函数具有多个可选参数�
 通过对 Python 版 OpenCV 库基础部分的学习，我不仅掌握了一系列图像处理的实用技能，更培养了自己的编程思维和问题解决能力。在面对复杂的图像数据和多样的处理需求时，学会了如何分析问题、选择合适的 OpenCV 函数和参数来构建解决方案。同时，这一学习过程也让我深刻体会到计算机视觉领域的广阔性和深度，它不仅仅是简单的图像处理，更是涉及到数学、物理学、计算机科学等多学科交叉的综合性领域。
 
 OpenCV 作为计算机视觉领域的强大工具，为我们打开了一扇通往图像处理和分析世界的大门。在基础学习阶段所积累的知识和经验，为进一步深入学习和探索更高级的计算机视觉技术，如目标检测、图像识别、机器学习与计算机视觉的融合等奠定了坚实的基础。我相信，随着对 OpenCV 学习的不断深入，将会在这个充满挑战与机遇的领域中发现更多的精彩与可能。 
+![all_lab](https://github.com/user-attachments/assets/74831134-53d3-4b22-9cb2-1f6880b938ac)
+![all_hsv](https://github.com/user-attachments/assets/6b1d1125-c2c8-4304-a9d0-991965ca2189)
+![all_gray](https://github.com/user-attachments/assets/2e687f81-c1fd-4d11-99cc-db60b08d841d)
+![phone_resized](https://github.com/user-attachments/assets/56ee5044-b075-413f-96ef-714d316c8571)
+![phone](https://github.com/user-attachments/assets/20587189-f38a-44e9-9773-94b7def3f441)
+![all](https://github.com/user-attachments/assets/44207a8a-0e35-4f32-8e1c-574257ea5465)
