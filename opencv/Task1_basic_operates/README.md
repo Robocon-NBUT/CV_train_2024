@@ -18,3 +18,15 @@
 ## 提交说明
  - 提交所有图片(图片放在README.md中)
  - 每个分点保存为一份代码，提交所有代码文件
+ - 
+
+https://github.com/user-attachments/assets/bb9bf56b-3147-4c13-8c8e-1b28537b9d86
+
+![all](https://github.com/user-attachments/assets/3e44dd62-a576-4465-aa62-fcc18a72a481)
+![all_gray](https://github.com/user-attachments/assets/51ae8772-d249-479a-88c9-24d59b2d6310)
+![all_hsv](https://github.com/user-attachments/assets/05414997-c245-4ab3-8f22-d1bb8133b2c4)
+![all_lab](https://github.com/user-attachments/assets/f7998ae9-100b-4c76-b112-7e1dcf9667ed)
+![phone](https://github.com/user-attachments/assets/137cae9c-77f4-46f7-8a89-b03a5519ce9a)
+![phone_resized](https://github.com/user-attachments/assets/2c3cf337-6c8e-40e7-9027-0b4f434ceb29)
+![phone_mark](https://github.com/user-attachments/assets/b05cc2d9-4ec2-4674-836d-2e83bac52473)
+![wuliao_mark](https://github.com/user-attachments/assets/b0c1a68a-37e4-42d7-aabd-525cd187850c)
