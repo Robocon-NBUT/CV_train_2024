@@ -11,8 +11,8 @@ while (1):
     frame = cv2.flip(frame, 1)  # 摄像头是和人对立的，将图像左右调换回来正常显示
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-    lower_red = np.array([78,26,50])
-    upper_red = np.array([98,225,225])
+    lower_red = np.array([1, 120, 50])
+    upper_red = np.array([10, 255, 255])
 
     # 通过上下限提取范围内的掩模mask
     mask = cv2.inRange(hsv, lower_red, upper_red)
@@ -23,7 +23,7 @@ while (1):
     for contour in contours:
     # 找到轮廓的最小外接矩形
      rect = cv2.minAreaRect(contour)
-    # 获取矩形的四个顶点
+    #获取矩形的四个顶点
     box = cv2.boxPoints(rect)
     box = np.int32(box)  # 将坐标转换为整数
 
