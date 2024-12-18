@@ -58,4 +58,5 @@ OpenCV 支持多种色彩空间变换，如`cv2.cvtColor()`函数可实现 BGR �
 ![phone](https://github.com/user-attachments/assets/529f4dda-4df8-4c5c-852b-b80a0c2d9232)
 ![phone_resized](https://github.com/user-attachments/assets/3b0c905e-eec1-4eff-8144-a85cc9be296a)
 <img width="172" alt="标记" src="https://github.com/user-attachments/assets/9daa04d6-0527-441c-96fc-83da0a4aa2f5" />
+<img width="221" alt="2" src="https://github.com/user-attachments/assets/670f82df-646a-4238-82a3-82570784654c" />
 
