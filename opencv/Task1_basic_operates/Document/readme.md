@@ -27,5 +27,10 @@
 首先进行边缘检测，然后使用cv2.findContours()函数查找轮廓，例如：contours, hierarchy = cv2.findContours(edges, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)，其中edges是边缘图像，cv2.RETR_TREE是轮廓检索模式，cv2.CHAIN_APPROX_SIMPLE是轮廓近似方法。
 可以使用cv2.drawContours()函数绘制轮廓，例如：cv2.drawContours(img, contours, - 1, (0, 255, 0), 3)，其中img是原始图像，contours是轮廓列表，-1表示绘制所有轮廓，(0, 255, 0)是轮廓颜色，3是轮廓线的厚度。
 
+## 使用电脑摄像头拍摄手机，并保存图片为 all.jpg
+## 打开 all.jpg 并截取手机部分，保存图片为 phone.jpg
+## 打开 phone.jpg 并将尺寸缩放至与 all.jpg 一致，保存图片为 phone_resized.jpg 
+## 将 all.jpg 保存灰度、hsv、lab 三种颜色空间各一张，分别命名为 all_gray.jpg，all_hsv.jpg，all_lab.jpg 
+## 在摄像头中用相反的颜色标出给定物料轮廓，并用与轮廓相同的颜色用十字标出物料外接矩形的几何中心
 
 
