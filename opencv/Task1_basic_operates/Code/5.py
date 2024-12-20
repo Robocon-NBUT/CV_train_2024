@@ -1,56 +1,51 @@
 import cv2
 import numpy as np
 
-# 打开摄像头，0表示默认的摄像头，如果有多个摄像头可以尝试更改参数为1、2等
+# 打开摄像头
 cap = cv2.VideoCapture(0)
 
-# 检查摄像头是否成功打开
-if not cap.isOpened():
-    print("无法打开摄像头")
-    exit()
-
 while True:
-    # 读取一帧图像
+    # 读取摄像头的一帧画面
     ret, frame = cap.read()
     if not ret:
-        print("未能获取到图像帧")
         break
 
-    # 转换为灰度图像，方便后续处理（这里假设物料与背景有一定灰度差异，可根据实际情况调整）
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    # 将图像从BGR转换到HSV颜色空间
+    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-    # 进行阈值处理，提取物料轮廓，这里简单使用固定阈值127，可根据实际优化阈值选取方法
-    _, thresh = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
+    # 定义红色在HSV中的范围
+    lower_red = np.array([0, 50, 50])
+    upper_red = np.array([10, 255, 255])
+    mask1 = cv2.inRange(hsv, lower_red, upper_red)
 
-    # 查找轮廓
-    contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    lower_red = np.array([170, 50, 50])
+    upper_red = np.array([180, 255, 255])
+    mask2 = cv2.inRange(hsv, lower_red, upper_red)
 
+    # 合并两个掩码
+    mask = mask1 + mask2
+
+    # 寻找轮廓
+    contours, _ = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+    # 绘制轮廓和中心点
     for contour in contours:
-        # 计算外接矩形
-        rect = cv2.minAreaRect(contour)
-        box = cv2.boxPoints(rect)
-        box = box.astype(np.int32)  # 将坐标数据转换为整数类型
+        # 计算轮廓的外接矩形
+        x, y, w, h = cv2.boundingRect(contour)
+        center_x = x + w // 2
+        center_y = y + h // 2
+        # 绘制轮廓（青色）
+        cv2.drawContours(frame, [contour], -1, (255, 255, 0), 2)
+        # 绘制中心点（青色）
+        cv2.drawMarker(frame, (center_x, center_y), (255, 255, 0), markerType=cv2.MARKER_CROSS, markerSize=10, thickness=2)
 
-        # 获取外接矩形的几何中心坐标
-        center_x = int(rect[0][0])
-        center_y = int(rect[0][1])
+    # 显示结果
+    cv2.imshow('Result', frame)
 
-        # 绘制物料轮廓（以相反颜色）
-        # 采用固定的黑色来绘制轮廓，可根据实际情况换成白色(255, 255, 255)等其他颜色尝试效果
-        cv2.drawContours(frame, [contour], -1, (0, 0, 0), 2)
-
-        # 绘制十字标记几何中心（与轮廓相同颜色）
-        cv2.line(frame, (center_x - 10, center_y), (center_x + 10, center_y), (0, 0, 0), 2)
-        cv2.line(frame, (center_x, center_y - 10), (center_x, center_y + 10), (0, 0, 0), 2)
-
-    # 显示处理后的图像
-    cv2.imshow('Frame', frame)
-
-    # 按'q'键退出循环
+    # 按下 'q' 键退出循环
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# 释放摄像头资源
+# 释放摄像头并关闭窗口
 cap.release()
-# 关闭所有窗口
 cv2.destroyAllWindows()
