@@ -38,3 +38,4 @@ OpenCV 作为计算机视觉领域的强大工具，为我们打开了一扇通�
 ![phone_resized](https://github.com/user-attachments/assets/56ee5044-b075-413f-96ef-714d316c8571)
 ![phone](https://github.com/user-attachments/assets/20587189-f38a-44e9-9773-94b7def3f441)
 ![all](https://github.com/user-attachments/assets/44207a8a-0e35-4f32-8e1c-574257ea5465)
+![屏幕截图 2024-12-20 185003](https://github.com/user-attachments/assets/b0642f82-3baa-4ffd-b28f-2cad59605da1)
