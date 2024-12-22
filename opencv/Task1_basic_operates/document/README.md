@@ -1,4 +1,4 @@
-![phone_resized](https://github.com/user-attachments/assets/6915963b-b296-4db6-8773-929eb283ca01)# Task 1 Basic operates
+
 ## 学习内容
  - python 版 opencv库的安装与使用
  - 图像输入操作
