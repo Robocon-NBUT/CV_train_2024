@@ -25,7 +25,7 @@
  - ![all_gray](https://github.com/user-attachments/assets/bcbdddb8-a38d-4bd1-86d3-e4c860592051)
 
  - 在摄像头中用相反的颜色标出给定的物料轮廓，并用与轮廓相同的颜色用十字标出物料外接矩形的几何中心 40%
- -https://github.com/user-attachments/assets/ed3fbe07-a4f5-4dd3-a000-a6e72b06b1a6
+ https://github.com/user-attachments/assets/ed3fbe07-a4f5-4dd3-a000-a6e72b06b1a6
 
 ## 提交说明
  - 提交所有图片(图片放在README.md中)
