@@ -24,4 +24,15 @@
 
  ~~~
  这次的视觉任务整体难度适中，掌握了opencv的基本使用，对python中的关于图像，颜色识别的代码有了一定的了解，熟悉了一定的图像尺寸和颜色的变换，提升了自己的实践能力，整体来说还可以，但是可能在识别方面仍会出现一些错误需要调整，希望自己再接再厉。
- 
+ ~~~
+
+![all](https://github.com/user-attachments/assets/7ed6f481-d5f5-4182-92af-5375b7d7ba63)
+![phone_resized](https://github.com/user-attachments/assets/e365e119-4cbe-4a21-8ba6-e47179d90f6c)
+![all_gray](https://github.com/user-attachments/assets/bb86ab95-dab2-4c36-8f11-e5a272026c9c)
+![all_lab](https://github.com/user-attachments/assets/408447ee-66fe-44cd-9d98-d07c149e1c6c)
+![all_hsv](https://github.com/user-attachments/assets/c5004b32-9f02-410e-b8bb-75cb41![phone](https://github.com/user-attachments/assets/b590caf7-5961-488a-af81-280ca0cc6680)
+d01cd8)
+
+
+https://github.com/user-attachments/assets/a4de20b5-1748-467a-9b09-6f2aa5aadba5
+
