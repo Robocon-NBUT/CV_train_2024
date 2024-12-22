@@ -10,15 +10,15 @@ def ExOrd_Eyes():
         ret, fr = op.read()
         cv2.imshow('window', fr)
 
-        hsv_frame = cv2.cvtColor(fr, cv2.COLOR_BGR2HSV)
+        hsv_fr = cv2.cvtColor(fr, cv2.COLOR_BGR2HSV)
         lower_red = np.array([0, 100, 100])
         upper_red = np.array([10, 255, 255])
-        mask1 = cv2.inRange(hsv_frame, lower_red, upper_red)
+        k1 = cv2.inRange(hsv_fr, lower_red, upper_red)
         lower_red2 = np.array([160, 100, 100])
         upper_red2 = np.array([179, 255, 255])
-        mask2 = cv2.inRange(hsv_frame, lower_red2, upper_red2)
-        mask = cv2.bitwise_or(mask1, mask2)
-        contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+        s2 = cv2.inRange(hsv_fr, lower_red2, upper_red2)
+        k = cv2.bitwise_or(k1, s2)
+        contours, chy = cv2.findContours(k, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
         filtered_contours = []
         min_area_threshold=600
 
@@ -39,7 +39,6 @@ def ExOrd_Eyes():
                 contour_color = tuple(contour_color)
             else:
                 raise ValueError("contour_color has an unexpected data type")
-
 
             opposite_color = tuple(255 - int(c) for c in contour_color)
             cv2.drawContours(fr, [contour], -1, opposite_color, 2)
