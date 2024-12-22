@@ -25,6 +25,10 @@
 ![phone_resized](https://github.com/user-attachments/assets/132eb430-26ac-4236-8e9b-5b8f2fff64b4)
 
 
-https://github.com/user-attachments/assets/8ad48baf-13d7-4c1a-ae8f-ebbcbad3464a
+
+
+https://github.com/user-attachments/assets/826a2f7f-90bd-42f1-a333-62ad8f003775
+
+
 
 ![all](https://github.com/user-attachments/assets/f329a6b5-b475-439b-aceb-927ebe5e0b44)
