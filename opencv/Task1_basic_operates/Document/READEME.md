@@ -59,17 +59,17 @@ sobely = cv2.Sobel(img, cv2.CV_64F, 0, 1, ksize=5) # Y方向Sobel
 - python库的opencv相对来说简单一点，但是需要记忆函数和用法比较困难，在运用一个新的东西前需要进行形态学变换，以及消去噪点。
 
 ## 图片
-all.jpg:
+### all.jpg:
 ![all](https://github.com/user-attachments/assets/5b41ac21-2274-4bd3-ba3e-11a8bfdccadf)
-phone.jpg
+### phone.jpg
 ![phone](https://github.com/user-attachments/assets/56e92f77-bc01-449c-b574-550bc0aa057f)
-phone_resized.jpg
+### phone_resized.jpg
 ![phone_resized](https://github.com/user-attachments/assets/39a692e9-6273-4762-a941-3ede7bc6b1da)
-all_gray.jpg
+### all_gray.jpg
 ![all_gray](https://github.com/user-attachments/assets/1a3373cf-ed0a-4b19-a498-dc301317996e)
-all_hsv.jpg
+### all_hsv.jpg
 ![all_hsv](https://github.com/user-attachments/assets/bd38363a-7847-4b88-aa4a-205d4b09a30d)
-all_lab.jpg
+### all_lab.jpg
 ![all_lab](https://github.com/user-attachments/assets/8c9364c6-80c0-49ca-a956-85689e5b856e)
 
 ## 视频
