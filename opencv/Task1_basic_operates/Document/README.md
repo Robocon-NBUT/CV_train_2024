@@ -29,3 +29,10 @@
 二值化、图像平滑算法和形态学操作的学习，让我感受到对图像进行预处理和优化的魅力。边缘检测和轮廓识别的学习，更是让我领略到了计算机视觉在识别图像特征方面的强大能力。
 通过对这些内容的学习，我不仅掌握了一系列实用的图像处理技术，更对计算机视觉领域有了更深入的认识。
   -
+![all](https://github.com/user-attachments/assets/c96598f2-0810-4bc1-8334-adda25b8894e)
+![phone](https://github.com/user-attachments/assets/0e13baf8-7c83-4821-8a44-fc97bfcda866)
+![phone_resized](https://github.com/user-attachments/assets/6a70bf27-d2f7-4c68-9518-90d39509a2cd)
+![all_gray](https://github.com/user-attachments/assets/148b5d1a-00fa-46d6-b1ac-10803875b886)
+![all_hsv](https://github.com/user-attachments/assets/6b189c16-297f-4a0c-8873-1c682842da91)
+![all_lab](https://github.com/user-attachments/assets/29080578-a787-4549-9ad3-bfb09eb60647)
+![wu_liao](https://github.com/user-attachments/assets/5891c416-5c3b-49a2-be27-f684426c3cd0)
