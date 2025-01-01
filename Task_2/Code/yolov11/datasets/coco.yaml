@@ -1,0 +1,23 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO 2017 dataset https://cocodataset.org by Microsoft
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco/
+# Example usage: yolo train data=coco.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: D:\黄世昌\Desktop\datasets\train.txt # train images (relative to 'path') 118287 images
+val: D:\黄世昌\Desktop\datasets\val.txt # val images (relative to 'path') 5000 images
+test: D:\黄世昌\Desktop\datasets\test.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+
+nc: 3
+
+# Classes
+names:
+  0: 可回收垃圾
+  1: 有害垃圾
+  2: 其他垃圾
+

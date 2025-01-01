@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>D:\黄世昌\Desktop\垃圾\微信图片_202501012022173.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>有害垃圾</name>
+				<bndbox>
+					<xmin>464</xmin>
+					<ymin>813</ymin>
+					<xmax>944</xmax>
+					<ymax>1097</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1735735139207</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>1280</width>
+		<height>1707</height>
+		<depth>3</depth>
+	</size>
+</doc>
