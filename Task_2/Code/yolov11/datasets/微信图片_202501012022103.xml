@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>D:\黄世昌\Desktop\垃圾\微信图片_202501012022103.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>可回收垃圾</name>
+				<bndbox>
+					<xmin>176</xmin>
+					<ymin>337</ymin>
+					<xmax>1148</xmax>
+					<ymax>981</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1735734906758</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>1280</width>
+		<height>1707</height>
+		<depth>3</depth>
+	</size>
+</doc>
