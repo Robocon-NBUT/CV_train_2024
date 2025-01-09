@@ -11,3 +11,5 @@
 ![alt text](../Code/phone.jpg)
 ## phone_resized.jpg:
 ![alt text](../Code/phone_resized.jpg)
+## video：
+<video controls src="物料识别.mp4" title="Title"></video>
