@@ -1,6 +1,6 @@
 # Task 1 Basic operates
 ## all.jpg:
-![alt text](all.jpg)
+![alt text](../Code/all.jpg)
 ## all_gray.jpg:
 ![alt text](all_gray.jpg)
 ## all_hsv.jpg:
