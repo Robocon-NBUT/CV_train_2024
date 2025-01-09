@@ -12,4 +12,4 @@
 ## phone_resized.jpg:
 ![alt text](../Code/phone_resized.jpg)
 ## video：
-<video controls src="物料识别.mp4" title="Title"></video>
+<video controls src="shibie.mp4" title="Title"></video>
