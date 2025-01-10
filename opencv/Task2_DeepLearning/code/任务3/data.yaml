@@ -1,0 +1,19 @@
+
+
+train: D:\\1\\yolo\\yololaji\\train\\images
+val: D:\\1\\yolo\\yololaji\\val\\images
+
+
+
+nc: 9
+
+names:
+    0: 'battery'
+    1: 'cup'
+    2: 'bottle'
+    3: 'modelbattery'
+    4: 'drug'
+    5: 'bag'
+    6: 'plastic'
+    7: 'rock'
+    8: 'stone'
