@@ -2,8 +2,8 @@ from ultralytics import YOLO
 import cv2
 import numpy as np
 
-# 加载 YOLOv8 模型
-model = YOLO('D:/rubbish/yolov8n.pt')  # 直接加载 yolov8n 模型权重文件
+# 加载本地YOLOv11模型
+model = YOLO('D:/rubbish/yolov11.pt')  # 确保文件路径正确，yolov11.pt 文件存在
 
 # 设置类别标签
 labels = ['可回收物_塑料瓶', '可回收物_易拉罐', '可回收物_纸箱',
@@ -31,7 +31,7 @@ while True:
     # 转换图像为 RGB
     image_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
-    # 使用 YOLOv8 模型进行推理
+    # 使用 YOLOv11 模型进行推理
     results = model(image_rgb)  # 传入 RGB 图像
 
     # 获取推理结果
