@@ -61,8 +61,7 @@ Adam 优化器
 Adam 优化器是一种常用的优化器，它结合了 Adagrad 和 RMSProp 的优点，能够自适应地调整学习率。在实践中，Adam 优化器通常能够在各种任务中取得较好的效果。
 python
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
-
-![48c6ed71488668a4f90580f7e5d0ace](https://github.com/user-attachments/assets/abe318ff-74e1-49c0-9ae6-56b529623f95)
-![cf5ab3e435e15fe86ca2876bb5d4b81](https://github.com/user-attachments/assets/4c4f5183-d079-4337-b949-790e6eea7ffa)
-![b9f10e9795624da195a6f457fc22874](https://github.com/user-attachments/assets/59f1c9b9-68c5-4ba2-a4dc-faba864ef575)
+![image](https://github.com/user-attachments/assets/004441be-116e-4cd0-a425-6b03fc778cd9)
+![image](https://github.com/user-attachments/assets/7ec209e7-0edd-48de-ac63-a8580068211a)
+![image](https://github.com/user-attachments/assets/6882f297-1456-47c0-b6ec-23cf9c7dd0db)
 
