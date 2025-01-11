@@ -1,0 +1,10 @@
+import cv2
+
+phone = cv2.imread('phone.jpg')
+
+all_img = cv2.imread('all.jpg')
+height, width, channels = all_img.shape
+
+phone_resized = cv2.resize(phone, (width, height))
+
+cv2.imwrite('phone_resized.jpg', phone_resized)

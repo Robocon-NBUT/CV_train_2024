@@ -1,0 +1,29 @@
+import cv2
+import numpy as np
+
+image = cv2.imread('wujian.jpg')
+
+hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+
+lower_orange = np.array([0, 100, 100])
+upper_orange = np.array([20, 255, 255])
+
+orange_mask = cv2.inRange(hsv_image, lower_orange, upper_orange)
+
+contours, _ = cv2.findContours(orange_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+for contour in contours:
+
+    x, y, w, h = cv2.boundingRect(contour)
+
+    center_x = x + w // 2
+    center_y = y + h // 2
+
+    cv2.rectangle(image, (x, y), (x + w, y + h), (255, 0, 0), 2)
+
+    cv2.line(image, (center_x - 10, center_y), (center_x + 10, center_y), (255, 0, 0), 2)
+    cv2.line(image, (center_x, center_y - 10), (center_x, center_y + 10), (255, 0, 0), 2)
+
+cv2.imshow('Result', image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
