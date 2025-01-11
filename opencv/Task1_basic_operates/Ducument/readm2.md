@@ -14,4 +14,12 @@
 将截取的图像缩放至与原图像一致，让我体会到尺寸变换在图像对齐和统一处理中的重要性。而色彩空间转换任务则让我看到了不同色彩空间在图像分析中的独特作用，如何根据具体需求选择合适的色彩空间进行处理。
 在摄像头中用相反颜色标出物料轮廓并标记外接矩形几何中心的任务，综合运用了之前学习的多种知识。从边缘检测和轮廓识别获取物料轮廓，到根据轮廓信息进行颜色标记和几何中心计算，这一过程充满挑战，但完成后的成就感也无与伦比。它不仅考验了我对各个知识点的掌握程度，还锻炼了我的逻辑思维和问题解决能力。
 五、总结与展望
-学习 Python 的 OpenCV 库是一段充满挑战与惊喜的旅程。通过这次学习，我不仅掌握了图像处理的基本技能，还培养了严谨的编程思维和解决实际问题的能力。在未来的学习和工作中，我希望能够进一步深入研究 OpenCV 库的高级应用，如目标跟踪、图像识别等领域，将这些知识应用到更实际的项目中，为图像处理领域贡献自己的一份力量。同时，我也认识到图像处理领域的知识无穷无尽，需要不断学习和探索，以跟上技术发展的步伐。
+学习 Python 的 OpenCV 库是一段充满挑战与惊喜的旅程。通过这次学习，我不仅掌握了图像处理的基本技能，还培养了严谨的编程思维和解决实际问题的能力。在未来的学习和工作中，我希望能够进一步深入研究 OpenCV 库的高级应用，如目标跟踪、图像识别等领域，将这些知识应用到更实际的项目中，为图像处理领域贡献自己的一份力量。同时，我也认识到图像处理领域![all_gray](https://github.com/user-attachments/assets/1ae41fbc-b7c3-439e-974f-9bab399e5c8b)
+![all](https://github.com/user-attachments/assets/05e6e2f3-bb6a-435b-a33f-fd4594d2a4fa)
+![3](https://github.com/user-attachments/assets/5c4f5fe7-69f5-444b-8d06-2e4220495d2f)
+![2](https://github.com/user-attachments/assets/84bda3b1-20b1-46b1-8584-cd0eafee49d8)
+![phone_resized](https://github.com/user-attachments/assets/01a3b2f3-d43e-4084-82f6-2d6f91189eb2)
+![all_lab](https://github.com/user-attachments/assets/fbf3e1f6-440a-4b36-b2e5-f8c47f28bdeb)
+![all_hsv](https://github.com/user-attachments/assets/2b504cb9-8c6d-42ba-ad84-09f15fc10c45)
+![phone](https://github.com/user-attachments/assets/bc3eb4ff-5c98-4a2d-9143-00bcbcac3fea)
+的知识无穷无尽，需要不断学习和探索，以跟上技术发展的步伐。
