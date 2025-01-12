@@ -1,3 +1,10 @@
+# 心得与体会
+数据集的质量对模型准确性的影响很大，所以数据要精挑细选
+
+labelimg比精灵标注好用多了，选择工具也是很重要的
+
+多动手而不只是想，效率会高很多
+
 # 垃圾分类
 
 https://github.com/user-attachments/assets/f932c920-1270-4fbf-8f6f-e6e104a976bd
