@@ -1,17 +1,26 @@
-# Task 1 Deep Learning
-## 学习内容
- - python 版 pytorch库的安装与使用
- - 创建神经网络模型类
- - 多层感知机
- - 激活函数
- - 卷积神经网络
- - 池化层
- - 损失函数
- - 优化器
- - yolov11的训练与使用
-## 任务要求
- - 使用多层感知机实现XOR(异或)，输入两个布尔值(0 or 1)输出两个布尔值异或运算后的结果 20%
- - 使用卷积神经网络识别自己书写的汉字（单个汉字识别），要求能识别不少于二十个汉字 30%
- - 使用yolov11识别至少9种垃圾（可回收，有害垃圾，厨余垃圾至少各三种）40%
-## 提交说明
- - 所有数据集及模型结构均自拟
+# 垃圾分类
+
+https://github.com/user-attachments/assets/f932c920-1270-4fbf-8f6f-e6e104a976bd
+
+
+
+https://github.com/user-attachments/assets/769c071a-bb89-41c0-ac0d-324f07d6334b
+
+# 手写字识别
+
+
+
+https://github.com/user-attachments/assets/633dd18f-22a9-48ff-812b-5d85608fd1a4
+
+
+
+https://github.com/user-attachments/assets/fc60ad0e-bf59-4654-bc5a-7e2bffa1c033
+
+
+
+https://github.com/user-attachments/assets/350a9971-9115-4ef2-9778-db18cfb88e4b
+
+
+
+https://github.com/user-attachments/assets/d2d1895a-392e-4bc1-a507-8f3da23b007f
+
