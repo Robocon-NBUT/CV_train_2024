@@ -15,10 +15,31 @@ YOLO模型的优势在于其优秀的实时检测能力，能够快速且准确�
 总结
 这个项目不仅加深了我对深度学习的理解，还让我亲自经历了从数据准备、模型设计到训练调优的全过程。通过这三个任务，我深刻体会到了模型选择、数据质量和超参数调整对最终结果的重要性。每一个任务的成功实现都让我更加自信，并且激发了我深入研究深度学习领域的兴趣。今后，我希望能够在这些任务的基础上，探索更多的应用场景，如更复杂的物体检测、图像分类和自然语言处理等。
 
-<img width="785" alt="屏幕截图 2025-01-10 140608" src="https://github.com/user-attachments/assets/1803a58d-421d-4d09-a1b9-572670c7ee93" />
-<img width="1193" alt="屏幕截图 2025-01-10 135326" src="https://github.com/user-attachments/assets/b329fd43-f5b6-4ac0-894d-9f4d37b58fca" />
+
+<img width="1280" alt="西" src="https://github.com/user-attachments/assets/9b535bf8-b84b-4881-bfdd-df1c84cb1aff" />
+<img width="1280" alt="东" src="https://github.com/user-attachments/assets/1eb734ea-18b8-46d2-b592-9ef79cd00a5e" />
+<img width="1271" alt="刀" src="https://github.com/user-attachments/assets/28ff7cd6-c45f-4e70-be94-6792f068e1a8" />
+<img width="1280" alt="内" src="https://github.com/user-attachments/assets/5c13b955-fadf-4341-ba0f-16215eaeac1a" />
+<img width="1280" alt="上" src="https://github.com/user-attachments/assets/04358005-8397-4267-b2bd-2951bcc05849" />
+<img width="1280" alt="十" src="https://github.com/user-attachments/assets/21f4b114-ab58-4036-975f-4eeed63ffa49" />
+<img width="1280" alt="九" src="https://github.com/user-attachments/assets/8f992cd2-1a5d-4216-ac51-e78526421a40" />
+<img width="1280" alt="八" src="https://github.com/user-attachments/assets/0e78c019-9095-4353-a8be-df7cb199e6bb" />
+<img width="1280" alt="七" src="https://github.com/user-attachments/assets/0eb369f9-54c8-4fde-b2a0-68b01599582d" />
+<img width="1280" alt="六" src="https://github.com/user-attachments/assets/e07a1c33-badb-42fc-bac5-576c69c18c5f" />
+<img width="1280" alt="五" src="https://github.com/user-attachments/assets/94750f83-49eb-4e3a-8fc1-6f9843e8b0d7" />
+<img width="1280" alt="四" src="https://github.com/user-attachments/assets/ed6321a1-91b3-4da8-90bb-437cd8eb6a51" />
+<img width="1280" alt="三" src="https://github.com/user-attachments/assets/3ea76144-aa81-43cb-89eb-13b0c11dd654" />
+<img width="1280" alt="二" src="https://github.com/user-attachments/assets/9fa60461-dc1c-48d4-b293-e7719ba7bab8" />
+<img width="1280" alt="一" src="https://github.com/user-attachments/assets/08623cd5-d868-4cc3-8b22-ff32a290cb8d" />
+<img width="1280" alt="丁" src="https://github.com/user-attachments/assets/fec5497d-0d89-4816-9aee-43b18f76ac0f" />
+<img width="1280" alt="万" src="https://github.com/user-attachments/assets/93a10b82-5f22-46e9-b79d-bef26a99128f" />
+<img width="1277" alt="中" src="https://github.com/user-attachments/assets/74bbc9ca-bcf0-45e7-9d70-270e17ef3c02" />
+<img width="1280" alt="北" src="https://github.com/user-attachments/assets/524355bf-adc5-4575-99ea-14d00a4926d6" />
+<img width="1280" alt="南" src="https://github.com/user-attachments/assets/6e5386c2-5e95-4b5f-9c4e-181ca8ea7a2b" />
 
 
 
+
+https://github.com/user-attachments/assets/247e5a16-5e2d-4c64-b693-7bb285834025
 
 
