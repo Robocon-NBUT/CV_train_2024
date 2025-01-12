@@ -88,7 +88,7 @@ Seed = 0
 set_seed(Seed)
 
 if __name__ == '__main__':
-    data_dir = 'D:\\Chnise character'
+    data_dir = 'D:\\Chinese character'
     img_size = 32
     batch_size = 64
 

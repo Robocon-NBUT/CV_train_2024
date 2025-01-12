@@ -1,80 +1,39 @@
-from ultralytics import YOLO
 import cv2
-import numpy as np
+from ultralytics import YOLO
 
-# 加载本地YOLOv11模型
-model = YOLO('D:/rubbish/yolov11.pt')  # 确保文件路径正确，yolov11.pt 文件存在
 
-# 设置类别标签
-labels = ['可回收物_塑料瓶', '可回收物_易拉罐', '可回收物_纸箱',
-          '有害垃圾_电池', '有害垃圾_过期药品', '有害垃圾_废旧灯管',
-          '厨余垃圾_青菜', '厨余垃圾_果皮', '厨余垃圾_骨头']
-
-# 启动摄像头
-cap = cv2.VideoCapture(0)  # 0 是默认摄像头
-
-if not cap.isOpened():
-    print("Error: Could not open camera.")
-    exit()
-
-confidence_threshold = 0.3  # 降低置信度阈值
-nms_threshold = 0.5  # 调整NMS阈值
-
-while True:
-    # 捕获每一帧
-    ret, frame = cap.read()
-
-    if not ret:
-        print("Error: Failed to capture frame.")
-        break
-
-    # 转换图像为 RGB
-    image_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-
-    # 使用 YOLOv11 模型进行推理
-    results = model(image_rgb)  # 传入 RGB 图像
-
-    # 获取推理结果
-    predictions = results[0].boxes  # 获取第一张图像的预测结果
-
-    # 筛选出置信度高于 0.3 的结果
-    boxes = []
-    confidences = []
-    class_ids = []
-    for pred in predictions:
-        if pred.conf[0] > confidence_threshold:  # 置信度阈值
-            x1, y1, x2, y2 = map(int, pred.xyxy[0])  # 获取目标框的坐标
-            boxes.append([x1, y1, x2, y2])
-            confidences.append(pred.conf[0].item())  # 置信度
-            class_ids.append(int(pred.cls[0]))  # 类别 ID
-
-    if len(boxes) == 0:  # 如果没有识别到任何物体，继续下一帧
-        print("No objects detected. Continuing to next frame...")
-    else:
-        # 非最大抑制（NMS）去除冗余框
-        indices = cv2.dnn.NMSBoxes(boxes, confidences, score_threshold=confidence_threshold, nms_threshold=nms_threshold)
-
-        # 输出识别的物体信息
-        for i in indices.flatten():
-            if class_ids[i] < len(labels):  # 检查类别是否在 labels 范围内
-                x1, y1, x2, y2 = boxes[i]
-                label = labels[class_ids[i]]
-                confidence = confidences[i]
-                print(f"Detected: {label} with confidence {confidence:.2f} at [{x1}, {y1}, {x2}, {y2}]")
-
-                # 在图片上绘制识别结果
+def detect_garbage(frame, model):
+    results = model(frame)
+    detected_objects = []
+    for result in results:
+        boxes = result.boxes
+        for box in boxes:
+            conf = box.conf[0].item()
+            if conf > 0.5:
+                x1, y1, x2, y2 = box.xyxy[0].tolist()
+                x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
+                cls = int(box.cls[0].item())
+                label = model.names[cls]
+                detected_objects.append(label)
                 cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
-                cv2.putText(frame, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 2)
-            else:
-                print(f"Warning: Class ID {class_ids[i]} is out of range for labels.")
+                cv2.putText(frame, f'{label}: {conf:.2f}', (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
+    return frame, detected_objects
 
-    # 显示识别结果
-    cv2.imshow("Real-Time Object Detection", frame)
 
-    # 按 'q' 键退出
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
-# 释放摄像头资源并关闭所有窗口
-cap.release()
-cv2.destroyAllWindows()
+if __name__ == '__main__':
+    # 加载训练好的模型，路径修改为训练后模型权重文件路径
+    model = YOLO('./runs/train/exp16/weights/last.pt')
+    cap = cv2.VideoCapture(0)
+    if not cap.isOpened():
+        raise Exception("Could not open video device")
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            break
+        result_frame, detected_objects = detect_garbage(frame, model)
+        print("Detected objects:", detected_objects)
+        cv2.imshow('Garbage Detection', result_frame)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+    cap.release()
+    cv2.destroyAllWindows()
