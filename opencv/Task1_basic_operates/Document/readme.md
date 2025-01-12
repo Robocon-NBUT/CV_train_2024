@@ -28,9 +28,21 @@
 可以使用cv2.drawContours()函数绘制轮廓，例如：cv2.drawContours(img, contours, - 1, (0, 255, 0), 3)，其中img是原始图像，contours是轮廓列表，-1表示绘制所有轮廓，(0, 255, 0)是轮廓颜色，3是轮廓线的厚度。
 
 ## 使用电脑摄像头拍摄手机，并保存图片为 all.jpg
+
+![all](https://github.com/user-attachments/assets/1bb35dd2-eaf8-47c4-9bb6-c6169c05d5e0)
 ## 打开 all.jpg 并截取手机部分，保存图片为 phone.jpg
+
+![phone](https://github.com/user-attachments/assets/39b64c56-e6cc-40fd-83db-04243918bb62)
 ## 打开 phone.jpg 并将尺寸缩放至与 all.jpg 一致，保存图片为 phone_resized.jpg 
+
+![phone_resized](https://github.com/user-attachments/assets/857ebb7e-63b4-4cca-995f-eab2b16d407a)
 ## 将 all.jpg 保存灰度、hsv、lab 三种颜色空间各一张，分别命名为 all_gray.jpg，all_hsv.jpg，all_lab.jpg 
+![all_gray](https://github.com/user-attachments/assets/f9b7b3e7-0f8e-4622-81d9-637e59de7768)
+
+![all_hsv](https://github.com/user-attachments/assets/89ce39c0-e1bd-4eb0-9561-3956437aa0ff)
+
+![all_lab](https://github.com/user-attachments/assets/04821893-3128-4ee7-b528-2d43c93b56a9)
 ## 在摄像头中用相反的颜色标出给定物料轮廓，并用与轮廓相同的颜色用十字标出物料外接矩形的几何中心
 
+https://github.com/user-attachments/assets/8193cb57-0eaa-4ed9-b5be-61c40ee44b40
 
