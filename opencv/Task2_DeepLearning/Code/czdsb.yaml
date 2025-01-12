@@ -1,0 +1,16 @@
+train: ../train.txt
+val: ../val.txt
+test: ../test.txt
+
+nc: 9
+
+names:
+  0: cup
+  1: battery
+  2: waterbottle
+  3: modelbattery
+  4: drug
+  5: pen
+  6: brick
+  7: stone
+  8: bottle
