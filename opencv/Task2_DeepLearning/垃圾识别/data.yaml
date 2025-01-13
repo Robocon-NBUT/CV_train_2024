@@ -1,0 +1,7 @@
+train: C:\Users\许奇峰\PycharmProjects\PythonProject\dataset_x\images\train # train images (relative to 'path') 4 images
+val: C:\Users\许奇峰\PycharmProjects\PythonProject\dataset_x\images\val  # val images (relative to 'path') 4 images
+
+nc: 3
+
+# class names
+names: ['可回收','有害','其它']
