@@ -20,6 +20,10 @@ YOLO11 的核心思想是将目标检测任务转化为一个回归问题，通�
 https://github.com/user-attachments/assets/94dab620-b21b-4510-9918-f5d41e0ed227
 
 
-https://github.com/user-attachments/assets/440fe6d5-fd50-4ba0-be08-d04049c77d05
+
+
+https://github.com/user-attachments/assets/302ed9a7-ebde-4bdc-b875-0843cca2003b
+
+
 
 
