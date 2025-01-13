@@ -1,0 +1,33 @@
+
+#linux
+#train: /tmp/dataset_helmet/train/images  # 118287 images
+#val: /tmp/dataset_helmet/val/images  # 5000 images
+#
+#
+## number of classes
+#nc: 2
+#
+## class names
+#names: ['helmet', 'no_helmet']
+
+#windows
+#train: D:\2-Python\1-YOLO\YOLOv9\new-yolov9\yolotest\images\train  # train images (relative to 'path') 4 images
+#val: D:\2-Python\1-YOLO\YOLOv9\new-yolov9\yolotest\images\val  # val images (relative to 'path') 4 images
+#
+#nc: 2
+#
+## class names
+#names: ['dog','cat']
+
+#windows
+train: C:\Users\35453\Desktop\垃圾分类2\datasets\dataset_kengwa\train\images  # 118287 images
+val: C:\Users\35453\Desktop\垃圾分类2\datasets\dataset_kengwa\val\images  # 5000 images
+
+
+# number of classes
+nc: 9
+
+# class names
+names: ['KHS-doll', 'KHS-plastic', 'KHS-breadboard',
+        'YH-battery', 'CY-drink', 'CY-sugar',
+        'CY-chocolate ', 'YH-green medicine', 'YH-yellow medicine']

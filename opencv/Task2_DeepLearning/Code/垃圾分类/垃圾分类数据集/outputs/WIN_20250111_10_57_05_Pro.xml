@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>可回收垃圾</folder>
+<filename>WIN_20250111_10_57_05_Pro.jpg</filename>
+<path>C:\Users\35453\Desktop\垃圾分类\可回收垃圾\WIN_20250111_10_57_05_Pro.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1280</width>
+    <height>720</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>Dupont thread</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>635</xmin>
+        <ymin>277</ymin>
+        <xmax>920</xmax>
+        <ymax>477</ymax>
+    </bndbox>
+</object>
+</annotation>
