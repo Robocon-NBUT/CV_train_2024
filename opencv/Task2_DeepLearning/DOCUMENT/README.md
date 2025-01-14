@@ -79,3 +79,28 @@ class CNN(nn.Module):
    构建 YOLO 模型，根据不同的版本可能包含不同数量的卷积层、残差块等。
    选择合适的损失函数（如 YOLO 特有的损失函数，考虑边界框位置损失、类别损失等）和优化器进行训练。
    在推理阶段，输入图像，输出检测到的物体的类别和边界框。
+
+https://github.com/user-attachments/assets/7021b823-1200-45ad-a155-11c6f3f9e8a1
+
+
+
+https://github.com/user-attachments/assets/bc0c9327-96a6-458e-8755-c33280245ada
+
+
+
+https://github.com/user-attachments/assets/7070be2f-26fb-41cd-95f6-9fdb879d3ca9
+
+
+
+https://github.com/user-attachments/assets/1a403bb5-2448-4912-89bd-6104dfd1e0fd
+
+
+
+
+https://github.com/user-attachments/assets/b6f95015-1dd8-4954-83e7-ae98911954d9
+
+
+
+
+
+
