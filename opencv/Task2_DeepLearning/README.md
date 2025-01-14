@@ -38,6 +38,6 @@ https://github.com/user-attachments/assets/7868149f-2c27-45d5-b5b7-22eefe3b1ea6
 https://github.com/user-attachments/assets/4fb3b6fc-2862-4725-b671-24ed0c48343b
 
 
-##垃圾分类
+## 垃圾分类
 https://github.com/user-attachments/assets/b70d16cb-1a95-4d4e-8a8c-4f4515c45d90
 
