@@ -1,0 +1,8 @@
+train: D:/PycharmProjects/opencv/deep learning/垃圾/data/images/train # train images (relative to 'path') 4 images
+val: D:/PycharmProjects/opencv/deep learning/垃圾/data/images/val  # val images (relative to 'path') 4 images
+
+nc: 9
+
+# class names
+names: ['玻璃瓶-可回收垃圾','瓶盖-可回收垃圾','电池1-有害垃圾','电池2-有害垃圾','电池3-有害垃圾','草稿本-可回收垃圾','饮料盒-不可回收垃圾','一次性叉子-不可回收垃圾','包装盒-不可回收垃圾']
+
