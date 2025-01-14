@@ -7,3 +7,26 @@
 ## 心得
 
 训练数据需要准确一点，多样一点，但是太复杂的背景需要更多的训练次数才可以提高识别准确率
+
+
+## 文字识别
+
+
+
+https://github.com/user-attachments/assets/5b3860fd-fd47-4d11-8fc7-173881b24394
+
+
+
+## 垃圾分类
+
+https://github.com/user-attachments/assets/768a7ac3-7f69-4592-b31e-97bc3d1a61fb
+
+
+
+https://github.com/user-attachments/assets/19235551-a5c1-49f5-818b-3813c486bcdb
+
+
+
+https://github.com/user-attachments/assets/d22557f3-d1cb-405e-8c31-11766e8338f7
+
+
