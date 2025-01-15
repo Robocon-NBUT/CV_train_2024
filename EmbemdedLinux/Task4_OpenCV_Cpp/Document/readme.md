@@ -50,6 +50,11 @@ cvRound 用于四舍五入。
 #### cv::line
 cv::line 用于绘制直线。
 
+<img width="429" alt="2a0a9f2363c831df8c68f820d2acc91" src="https://github.com/user-attachments/assets/b060e766-e134-42ea-8e2b-4cd73b9b09fe" />
+<img width="758" alt="6a638b9312a47e999265cd1a6bb41a8" src="https://github.com/user-attachments/assets/5188903d-ff53-4b0d-be2f-<img width="753" alt="2c105106ddf0a1bab0aa4541cee5f69" src="https://github.com/user-attachments/assets/e24151af-5c8b-467a-9d47-9741afe2e2a1" />
+00bb31a61558" />
+<img width="752" alt="e1adf6549e698c2758b3b9798bd8ae0" src="https://github.com/user-attachments/assets/0d95d4e7-8dc6-4f10-808c-c2f3647dd534" />
+<img width="840" alt="ecb0eafc9adbfc33943713affd7ad04" src="https://github.com/user-attachments/assets/b8052731-536b-41c8-9fda-8a7a4828e21b" />
 
 
 
