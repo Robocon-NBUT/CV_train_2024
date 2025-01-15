@@ -34,16 +34,20 @@ apt 包管理器
 
 ## 安装Docker
 <img width="71" alt="e0228f7ddbe71f825a6d13d9807b621" src="https://github.com/user-attachments/assets/c0fbb039-d276-4f08-b99d-1385471c2a29" />
+
 ## 创建ububtu容器
 <img width="849" alt="0f3273391925dbb37bd223a40619433" src="https://github.com/user-attachments/assets/5a503710-709a-41d6-83f6-875f552ad506" />
+
 ## 安装opencv。cpp
 版本号
 <img width="389" alt="2b691388e2edcea0e63ae71fa24f5a0" src="https://github.com/user-attachments/assets/d63fd5f6-7f3c-4621-8a09-27c512d23c03" />
+
 运行
 <img width="1217" alt="7d390114c99cf449d1778639cd570ba" src="https://github.com/user-attachments/assets/80c4af64-486a-4d2e-ae04-707737e3289a" />
 ## 安装rknn toolkit模型转换工具
 版本号
 <img width="239" alt="ea19900294e60d82cdc46901da2fcc4" src="https://github.com/user-attachments/assets/728ebf6e-a369-4636-9f2a-f2c5d102ff4c" />
+
 运行
 <img width="555" alt="a12c81d0980b06bb3dfc9b0853a6ba1" src="https://github.com/user-attachments/assets/2f7bd18b-c4d0-481f-9064-c1ab47780548" />
 
