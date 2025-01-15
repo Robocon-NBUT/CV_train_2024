@@ -5,7 +5,7 @@ import numpy as np
 lower_red = np.array([0, 50, 100])
 upper_red = np.array([10, 255, 255])
 lower_blue = np.array([100,50,100])
-upper_blue = np.array([124, 255, 255])     #若绘制轮廓与自己期望的识别结果相差较大，可通过调整阈值来改变识别结果
+upper_blue = np.array([124, 255, 255])    
 red = (0,0,225)
 blue = (225,0,0)
  
