@@ -54,3 +54,7 @@
   apt search xxx：搜索包含 xxx 的软件包
   apt show xxx：显示 xxx 的详细信息
   ```
+## 安装docker
+
+需要开启wsl，使用docker run -it --name xxx(取名) ubuntu直接安装     
+先使用/bin/bash进入主目录
