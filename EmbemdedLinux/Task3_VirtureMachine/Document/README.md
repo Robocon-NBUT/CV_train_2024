@@ -58,3 +58,15 @@
 
 需要开启wsl，使用docker run -it --name xxx(取名) ubuntu直接安装     
 先使用/bin/bash进入主目录
+
+## 安装docker
+![install docker create ubuntu](https://github.com/user-attachments/assets/41281794-d0bf-4676-b3c6-18b6d434face)
+
+## opencv cpp编译
+![opencv_cpp_enviornment](https://github.com/user-attachments/assets/7cee770e-e879-4d90-8438-ab297eb4d764)
+
+## rknn
+![rknn_tokkit](https://github.com/user-attachments/assets/cf707ad5-228d-4480-88c6-1fb1742032ac)
+
+
+
