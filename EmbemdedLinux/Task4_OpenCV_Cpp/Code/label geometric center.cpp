@@ -93,4 +93,4 @@ int main() {
         processImage(path);
     }
     return 0;
-} docker cp container_name:/opencv.cpp/phone.jpg D:/机器视觉/opencv.cpp/picture/
+} 
