@@ -1,0 +1,3 @@
+## cpp版的opencv的使用
+首先学会了如何进行docker子系统与windows的文件转换发现了cpp版本的opencv与python版本的大体相似。在交互时安装了图形化界面可以在xlaunch下显示docker的ubuntu容器下的图片。  
+docker的使用逐渐变得十分有趣
