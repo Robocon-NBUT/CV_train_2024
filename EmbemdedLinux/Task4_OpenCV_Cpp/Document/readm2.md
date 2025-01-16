@@ -5,17 +5,16 @@
 标记物料轮廓和几何中心是一个有趣的挑战，需要使用 cv::findContours 查找轮廓，再用 cv::drawContours 绘制轮廓和 cv::line 绘制十字标记。这个过程让我学会如何处理轮廓数据，根据轮廓的属性（如面积、外接矩形）进行分析和操作，以及如何根据需求调整颜色，为轮廓绘制合适的标记。
 同时，整个开发过程也让我意识到错误处理的重要性，如检查文件是否成功读取、图像是否成功保存等，避免程序因异常而崩溃。总之，通过这次实践，我不仅掌握了许多 OpenCV 的核心功能，还提升了自己的图像处理和编程技能，为今后更复杂的计算机视觉任务打下了坚实基础。
 当然，这个项目还有很多可以改进的地方，例如可以通过优化轮廓检测的参数、提高裁剪和缩放的精度，以及对不同设备和不同图像的适应性。我会继续深入学习，进一步探索 OpenCV 的更多功能，以解决更具挑战性的问题。
-<img width="952" alt="屏幕截图 2025-01-16 111604" src="https://github.com/user-attachments/assets/c2a425e5-9ddc-4a32-ac69-4653f6edaade" />
+<img width="952" alt="屏幕截图 2025-01-16 111604" src="https://github.com/user-attachments/assets/95f73f4f-647d-4339-8225-fdac98d15fef" />
+![all](https://github.com/user-attachments/assets/2a5504f6-0a3d-44a7-a3f7-33c917852367)
+![phone](https://github.com/user-attachments/assets/fcec6be4-d7b0-4ea4-825f-37969ea885d1)
+<img width="949" alt="屏幕截图 2025-01-16 111747" src="https://github.com/user-attachments/assets/9343d9a0-4ade-40ef-a9e9-79f724b3f019" />
+![phone_resized](https://github.com/user-attachments/assets/2dec8779-7cba-4a1d-ac39-c98480da6a5d)
+<img width="946" alt="屏幕截图 2025-01-16 114251" src="https://github.com/user-attachments/assets/a817498f-0831-45c2-821e-39cf446fb8a3" />
+![all_gray](https://github.com/user-attachments/assets/13560648-a364-422a-af0f-52fe1a39055c)
+![all_hsv](https://github.com/user-attachments/assets/43fb6fda-8f35-46e6-95fb-7beb84597dae)
+![all_lab](https://github.com/user-attachments/assets/696ecad7-c87c-4ab3-a03e-5a419dc5acb2)
+<img width="949" alt="屏幕截图 2025-01-16 154248" src="https://github.com/user-attachments/assets/6d077677-2635-4144-b685-72912cfc4979" />
+![photo](https://github.com/user-attachments/assets/6eb996be-57df-42c2-805a-c15f310e489d)
+![processed_photo](https://github.com/user-attachments/assets/5e8fbdaf-429a-4109-b0f7-976a028ed2af)
 
-<img width="952" alt="屏幕截图 2025-01-16 111604" src="https://github.com/user-attachments/assets/07e48f60-1bb0-424f-866b-5406d3735c7d" />
-![all](https://github.com/user-attachments/assets/3d5257ae-7cb8-45ea-8a7b-93a1342e8b48)
-<img width="944" alt="屏幕截图 2025-01-16 113227" src="https://github.com/user-attachments/assets/8461b968-fbd2-43a8-8d77-f6506a28eb1b" />
-![phone](https://github.com/user-attachments/assets/2d041592-3a35-4e7d-a878-09e64a2467db)
-<img width="946" alt="屏幕截图 2025-01-16 114251" src="https://github.com/user-attachments/assets/bd48d7cf-ee13-4c3e-94d8-3e35da1bc14b" />
-![all_gray](https://github.com/user-attachments/assets/53426f81-8b49-420a-9db1-86c92245b061)
-![all_hsv](https://github.com/user-attachments/assets/020031b4-3d7c-4881-82ac-80298a062589)
-![all_lab](https://github.com/user-attachments/assets/a6538e35-7d18-4ceb-a680-a5fc4cbe5a48)
-![Uploadin![photo](https://github.com/user-attachments/assets/8353486a-4e29-4fc3-8a70-1f6bc6e173fd)
-<img width="949" alt="屏幕截图 2025-01-16 154248" src="https://github.com/user-attachments/assets/692e21ac-dd89-46ed-9d4f-a86ed0eb0add" />
-
-![processed_photo](https://github.com/user-attachments/assets/cddb0c72-81cc-4330-9c71-79b0c4f554b7)
