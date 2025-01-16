@@ -38,5 +38,13 @@
 - **`cv::drawMarker(image, center, color, markerType, size, thickness);`**  
   在图像上绘制标记（如十字）。
 
+![all](https://github.com/user-attachments/assets/ec213c28-1c23-4977-b2f9-8df2f74c2fc6)
+![phone](https://github.com/user-attachments/assets/4241c211-835e-4e3e-b264-68136b45afea)
+![phone_resized](https://github.com/user-attachments/assets/908d5455-d590-443d-b0ce-6cd3d0e9a9fa)
+![all_gray](https://github.com/user-attachments/assets/e7ccab1d-ef2c-4105-a6c6-a5d3baf8cee4)
+![all_hsv](https://github.com/user-attachments/assets/716609e6-1d69-4482-b5b9-f792cfa5037b)
+![all_lab](https://github.com/user-attachments/assets/86df7a7d-6378-4694-b8d1-34259ca45483)
+<img width="475" alt="十字标定" src="https://github.com/user-attachments/assets/0e5a8399-fb21-41e7-9b73-1629d2819a40" />
+
 
 
