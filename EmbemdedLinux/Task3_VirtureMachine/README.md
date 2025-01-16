@@ -39,3 +39,4 @@
  - 安装opencv cpp环境并编译 40%![屏幕截图 2025-01-16 122202](https://github.com/user-attachments/assets/19f743a5-d6c4-4921-bcac-263e44b55e75)
 
  - 在ubuntu容器中安装rknn toolkit模型转换工具 20%
+![屏幕截图 2025-01-16 182210](https://github.com/user-attachments/assets/22048044-b3dc-4005-8a75-c00cff2fe895)
