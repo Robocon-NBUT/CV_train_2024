@@ -38,13 +38,26 @@
 ## 使用多层感知机实现 XOR(异或)
 - 输入两个布尔值(0 or 1)
 - 输出两个布尔值异或运算后的结果
+![QQ20250116-111440](https://github.com/user-attachments/assets/8e967017-b82c-4bfe-a278-3b3157768687)
 
 ## 使用卷积神经网络识别自己书写的汉字（单个汉字识别）
 - 能识别不少于二十个汉字
+
+
+https://github.com/user-attachments/assets/0e7b37c0-ca12-4c28-ba06-911a252ff1f9
+
 
 ## 使用 YOLOv11 识别至少 9 种垃圾
 - 可回收垃圾至少三种
 - 有害垃圾至少三种
 - 厨余垃圾至少三种
+
+
+https://github.com/user-attachments/assets/3cc0c586-73d2-457a-8b42-3b71d1231eec
+
+
 # 心得体会
 -通过本次学习，我对 PyTorch 库及其在神经网络构建和训练中的应用有了深入的理解和实践。从最基础的库安装与使用，到复杂模型的搭建与优化，每一步都让我对深度学习有了更深刻的认识
+
+
+
