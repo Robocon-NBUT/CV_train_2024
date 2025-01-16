@@ -1,8 +1,8 @@
 #学习成果
 
      cd 切换工作目录
-cd /home             #进入 /home 目录
-cd ..                 # 返回上一级目录
+* cd /home             #进入 /home 目录
+* cd ..                 # 返回上一级目录
 cd ~                  # 返回当前用户的主目录
 cd /path/to/directory # 进入指定路径的目录
 
