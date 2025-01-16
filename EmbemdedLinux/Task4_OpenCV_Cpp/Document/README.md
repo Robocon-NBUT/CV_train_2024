@@ -9,7 +9,7 @@
   <br/>
 
   
-## cut_phone
+# cut_phone
 ![804ead75-10e6-476a-9016-b5d23f559c3e](https://github.com/user-attachments/assets/1e743b31-25c0-4de9-981f-763fbecfbfa8)
 
 
@@ -18,13 +18,13 @@
 
 ![phone](https://github.com/user-attachments/assets/465cc1f0-dec7-4bd4-8909-6d2bc57e504b)
 
-## resize
+# resize
 ![e04949a5-eb91-4de9-9ee7-3ffbb0f78c6a](https://github.com/user-attachments/assets/9cac2a3e-a08c-4518-bfce-1dbf5c5814b5)
 
 
 ![phone_resized](https://github.com/user-attachments/assets/b3c8b70c-0f01-4dcf-afec-f13546959974)
 
-## change_color_space
+# change_color_space
 ![e45d392d-1186-42d7-94f2-b90e61501c13](https://github.com/user-attachments/assets/828c1a59-93b7-43d9-b226-382e6ea30afa)
 
 
@@ -36,7 +36,7 @@
 
 ![all_hsv](https://github.com/user-attachments/assets/b57ca0fa-1290-4651-94d7-af9895d5ee5f)
 
-## recognize
+# recognize
 ![ba72bf0e-999b-41e5-a9d9-ab606bef552a](https://github.com/user-attachments/assets/f2b5bd35-183b-4263-9f11-eea0c5d13fa0)
 
 
