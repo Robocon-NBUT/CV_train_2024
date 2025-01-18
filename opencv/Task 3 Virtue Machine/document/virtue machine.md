@@ -14,7 +14,7 @@
 
 # rknn tollkit的安装
 
-安装在anaconda虚拟环境里，作为以后学习的重要工具应该有用
+安装在anaconda虚拟环境里，作为以后学习的重要工具应该有用，应当谨慎对待
 ![9cb98868b4fc1340879745c79786142](https://github.com/user-attachments/assets/0ac518e6-ea5c-4479-b1a1-04720ab858ed)
 ![9d54e6341f7b2206cc1c876283be67b](https://github.com/user-attachments/assets/55fcada7-4224-46b5-8960-30cf3c6c224e)
 ![ea7b71b1f26d6363c2fe5ca38bfe945](https://github.com/user-attachments/assets/92feda03-06f6-49f7-a5c8-a716cdc0de1e)
