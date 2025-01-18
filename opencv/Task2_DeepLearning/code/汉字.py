@@ -25,7 +25,7 @@ test_dir = "picture/test"  # 测试集文件夹路径
 
 # 确保数据路径存在
 if not os.path.exists(train_dir) or not os.path.exists(test_dir):
-    raise FileNotFoundError("请准备汉字图片数据集并放置在 data/train 和 data/test 文件夹中！")
+    raise FileNotFoundError("请准备汉字图片数据集并放置在 picture/train 和 picture/test 文件夹中！")
 
 train_dataset = datasets.ImageFolder(train_dir, transform=transform)
 test_dataset = datasets.ImageFolder(test_dir, transform=transform)
