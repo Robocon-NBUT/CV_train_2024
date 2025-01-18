@@ -152,7 +152,7 @@ def predict_from_camera():
         # 显示摄像头画面
         cv2.imshow('摄像头 - 请书写汉字', frame)
 
-        # 按 'c' 键进行预测
+        # 按 'a' 键进行预测
         key = cv2.waitKey(1)
         if key & 0xFF == ord('a'):
             # 选择文字区域
