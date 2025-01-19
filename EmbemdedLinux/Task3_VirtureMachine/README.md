@@ -34,3 +34,22 @@
 这些工具在日常的开发和运维工作中都有着广泛的应用，通过学习和实践，我能够熟练地运用它们完成相应的任务。
  - 安装opencv cpp环境并编译 40%
  - 在ubuntu容器中安装rknn toolkit模型转换工具 20%
+![414efd52bff0cc6144c57d299e8911f](https://github.com/user-attachments/assets/9fae7e47-5ec1-46d9-be46-b32e5640b0e3)
+
+![5b5372daa625cbbcdd5ca62474e5a41](https://github.com/user-attachments/assets/587f429d-c1f0-418a-ae99-451f3385d968)
+
+![ba90bd92308e6cc7233dad5c33d4a75](https://github.com/user-attachments/assets/79ebab3e-fb6e-48d4-8fb6-ea1a154bd8ce)
+
+![e6f26398483e42c1ac83a3695c67f82](https://github.com/user-attachments/assets/3ec8052d-771b-43f0-9123-a64d9af4a478)
+
+![1cfb48c81b8cb57bd74047629db7d1a](https://github.com/user-attachments/assets/8d6395fc-e53b-43e8-b50d-d754c6e226a9)
+
+![2b10e96114b2a216e321f1c426877fc](https://github.com/user-attachments/assets/492f5982-f1e0-4629-bf71-96c9b9748b2e)
+
+
+
+
+
+
+
+
