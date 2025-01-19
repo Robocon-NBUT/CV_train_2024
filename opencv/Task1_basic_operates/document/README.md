@@ -21,3 +21,13 @@
 
  - 任务心得：完成任务，熟悉图像输入输出、变换、处理等操作。虽然遇到摄像头实时处理挑战
  ，提升了自我编程能力，激发了对计算机视觉兴趣，为深入学习高级功能奠基，收获颇丰。
+![all](https://github.com/user-attachments/assets/ac4a1375-00c7-427f-9471-ffd538066e8d)
+![all_lab](https://github.com/user-attachments/assets/c6417c19-e0df-4951-97ee-483fffef91cf)
+![all_hsv](https://github.com/user-attachments/assets/aa594602-5a08-4f52-82e1-4e875dc6f235)
+![all_gray](https://github.com/user-attachments/assets/32af5423-4cdd-498a-8c83-8d5683943017)
+![phone_resized](https://github.com/user-attachments/assets/74fe21bf-ccf6-452b-bdea-3eac1fbaee8a)
+![phone](https://github.com/user-attachments/assets/4822ca81-1109-477b-9ff2-3679817bd5e1)
+
+
+https://github.com/user-attachments/assets/8fa23862-df55-4083-95b4-36c57630b5f8
+
