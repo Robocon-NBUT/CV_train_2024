@@ -21,3 +21,8 @@
     - apt 包管理器
  - 安装opencv cpp环境并编译 40%
  - 在ubuntu容器中安装rknn toolkit模型转换工具 20%
+
+   ![image](https://github.com/user-attachments/assets/9d06c84e-9e78-4ba5-8951-021bc2c5b2b5)
+   ![image](https://github.com/user-attachments/assets/fbd5226e-21f0-480e-a50a-ea5b7444ab17)
+
+ - ![image](https://github.com/user-attachments/assets/3df1be3d-f20b-41a6-a651-75bf8ec60003)
